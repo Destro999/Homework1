@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <!--Header with logo -->
+    <link href="css/main.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+
+    <!--Title of the website -->
+    <title>My First ASP.NET Website</title>
+
+    <!--Logo to go with the title -->
+    <link rel="icon" href="https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_200X200.png" type="image/x-icon">
+
+</head>
+<body>
+    <!--Header with my name -->
+    <div class="header">
+        <h1>Brandon Wilson</h1>
+    </div>
+    <br />
+    <br />
+    <table>
+        <tr>
+            <th>
+                <section>
+                    <!--Something I like to do -->
+                    <div class="img">
+                        <img style="width:400px; height:500px;" src="img/Interest.JPG" />
+                    </div>
+                </section>
+            </th>
+
+            <th style="padding-left:2%;">
+                <article style="padding-left:5%">
+                    <p class="para">
+                        <!--What I hope to learn -->
+                        <b>What I hope to learn from IS 413: </b>I hope to learn a little about different programing languages to where I would be able to deploy one of each type on my own.
+                        I would like to be able to have a good base from which I can branch out and learn.
+                    </p>
+                </article>
+                <br />
+                <form style="padding-left:40%; text-align: left">
+                    <!--Three top jobs -->
+                    <h3>My top #3 Jobs </h3>
+                    <ol>
+                        <li>Software Engineer</li>
+                        <li>Data Analyst</li>
+                        <li>Web Developer</li>
+                    </ol>
+                </form>
+            </th>
+        </tr>
+    </table>
+    <br />
+    <br />
+    <!--Grade Calculator -->
+    <section style="text-align: center; padding-left: 40%">
+        <fieldset>
+            <legend>Grade Calculator</legend>
+            <form>
+                <p>Input your percent of each of the types: </p>
+                <br />
+                <br />
+                <label>Assignments: </label>
+                <input class="assignment" type="number"  name="assignment" id="assignment"/>
+                <br />
+                <br />
+                <label>Group Project: </label>
+                <input class="project" type="number"  name="project" id="project"/>
+                <br />
+                <br />
+                <label>Quizzes: </label>
+                <input class="quizzes" type="number"  name="quizzes" id="quizzes"/>
+                <br />
+                <br />
+                <label>Exams: </label>
+                <input class="exams" type="number"  name="exams" id="exams"/>
+                <br />
+                <br />
+                <label>Intex: </label>
+                <input class="intex" type="number"  name="intex" id="intex"/>
+                <br />
+                <br />
+                <input type="button" value="Calculate" onclick="calculate()" />
+                <br />
+                <br />
+            </form>
+        </fieldset>
+
+    </section>
+
+    <br />
+    <br />
+
+    <footer style="height: 5%;">
+        <img style="width:450px; height:150px;" src="img/2.png" />
+        <p>My logo @</p>
+    </footer>
+    <script src="js/Functions.js"></script>
+</body>
+</html>
